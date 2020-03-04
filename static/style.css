@@ -1,0 +1,60 @@
+.hd_menu {
+  margin: 50px 10px 20px 10px;
+}
+
+.conts {
+    font-size: 23px;
+    border: solid green 1px;
+    width: 100%; /* Ширина блока */
+    margin:200px 50px 60px 50px;
+}
+
+.h1{
+    margin: 10px 10px 30px -100px;
+    float:left;
+    padding-top: 20px;
+    font-size:60px;
+    font-family: 'Bad Script', cursive;
+
+}
+
+.col-text{
+  margin:50px 0 20px 0;
+}
+
+footer p{
+  color:gray;
+  text-align: center;
+  background:#adb1c3;
+}
+.pagination {
+  margin-bottom: 40px;
+  text-align: center;
+  width: 300px;
+}
+
+img {
+  border-radius: 12px;
+}
+
+.div1 {
+  width:100%;
+  background: #4a76a8;
+  padding: 5px;
+
+
+}
+
+audio {
+  width: 100%;
+  display: block;
+}
+
+.name_song {
+  background: #4a76a8;
+  color: #555;
+  text-align:center;
+  margin-top:15px;
+}
+
+

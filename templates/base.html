@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>
+    Блог Майка
+</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='style.css')}}">
+
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+<div class="container">
+    {% block menu %}
+  <div class="row">
+    <div class="col">
+     <div class = h1>MikesoWeb <sub>blog</sub></div>
+    </div>
+
+    <div class="col">
+     <div class=hd_menu>
+    <button type="button" class="btn btn-outline-primary"><a href="/">Главная</a></button>
+    <button type="button" class="btn btn-outline-secondary"><a href="/blog">Блог</a></button>
+    <button type="button" class="btn btn-outline-success"><a href="/audio">Музыка</a></button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+
+</div>
+    </div>
+  </div>
+{% endblock %}
+
+
+{% block content %}
+ <hr>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic perferendis ut, accusamus aspernatur sunt dignissimos eius eligendi tempora laboriosam molestiae voluptate sed dolor labore minus quos facere dolore aperiam distinctio.
+  <hr>
+  <nav class="navbar navbar-dark bg-dark">
+  <!-- Navbar content -->
+</nav>
+
+<nav class="navbar navbar-dark bg-primary">
+  <!-- Navbar content -->
+</nav>
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <!-- Navbar content -->
+</nav>
+
+  <div class="card-group">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/1.jpg')}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/2.jpg')}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/3.jpg')}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+  <hr>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic perferendis ut, accusamus aspernatur sunt dignissimos eius eligendi tempora laboriosam molestiae voluptate sed dolor labore minus quos facere dolore aperiam distinctio.
+  <hr>
+
+  <div class="row">
+
+    <div class="col-text">
+     <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cumque harum sequi, pariatur voluptatem sit voluptates assumenda quae ipsam voluptate odio, excepturi itaque in voluptatum minima nisi, omnis soluta veritatis.
+     Architecto ullam dolorem provident, quasi inventore in minima adipisci voluptatibus recusandae beatae odit voluptates expedita obcaecati doloremque laborum eius earum aliquam laboriosam animi? Illo voluptates incidunt, minima quisquam est quasi!
+     Minima, ducimus quibusdam eaque nobis ratione consequuntur reprehenderit odit ad amet, sint in nostrum rerum nemo, doloribus neque ea quas temporibus unde distinctio culpa laborum eligendi dicta alias. Distinctio, maiores.
+     Cum corporis error dolor necessitatibus blanditiis minus tenetur corrupti sapiente, perspiciatis quibusdam eum sint laborum doloremque dolorem ratione quae! Laborum eaque quas vitae vero adipisci dicta optio laboriosam deleniti? Cupiditate.
+     Itaque iusto modi voluptatibus, sequi reiciendis quaerat explicabo laborum odit optio quidem. Blanditiis perspiciatis excepturi numquam dignissimos at dolore tempore, quae accusantium consequuntur culpa, harum ab accusamus? Ipsum, facilis odio!
+     Alias corporis praesentium debitis maxime amet modi, aut dolore inventore est voluptatibus at, illo molestias deserunt assumenda quasi repellat incidunt laudantium voluptatum, quia et pariatur iusto sequi? Tenetur, nesciunt earum.
+     At delectus ullam aut mollitia obcaecati nisi impedit nostrum recusandae? Praesentium dolorum consequuntur optio voluptate repellat ipsum ratione quo perferendis fugit architecto accusamus, quis placeat nam. Numquam libero adipisci molestiae!
+     Laudantium odio nihil odit, eum voluptatem iste enim eos ad, ut tenetur iure error cumque placeat quo! Obcaecati fuga nam velit porro necessitatibus cumque quae maiores mollitia, eum pariatur saepe?
+     Sapiente delectus reprehenderit officiis eligendi vitae quam iure ab ducimus hic incidunt magnam tenetur tempora, perspiciatis deleniti. Labore soluta autem odit ipsum exercitationem nesciunt similique aperiam distinctio laboriosam, porro iure.
+     Similique accusamus cupiditate aperiam reprehenderit eligendi fuga et, labore qui incidunt, asperiores assumenda maiores illo fugit numquam doloremque architecto nulla aliquid officia possimus facilis, ullam fugiat dolores cumque iure. Ipsa!</strong>
+    </div>
+
+  </div>
+</div>
+
+
+
+</body>
+
+{% endblock %}
+
+
+<footer>
+  <p>Copyright © MikesoWeb 2020  Все права защищены</p>
+  </footer>
+</html>

@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+{%block content%}
+<iframe width="500" height="250" src="https://www.youtube.com/embed/MBmuwCRA_SY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+
+<iframe width="500" height="250" src="https://www.youtube.com/embed/JqxfedAPtLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+
+
+
+<center><ul class="pagination">
+<li class="page-item">
+<a class="page-link" href="#" aria-label="Previous">
+<span aria-hidden="true">«</span>
+</a>
+</li>
+<li class="page-item"><a class="page-link" href="#">1</a></li>
+<li class="page-item"><a class="page-link" href="#">2</a></li>
+<li class="page-item"><a class="page-link" href="#">3</a></li>
+<li class="page-item"><a class="page-link" href="#">4</a></li>
+<li class="page-item"><a class="page-link" href="#">5</a></li>
+<li class="page-item"><a class="page-link" href="#">6</a></li>
+<li class="page-item">
+<a class="page-link" href="#" aria-label="Next">
+<span aria-hidden="true">»</span>
+</a>
+</li>
+</ul>
+</center>
+
+<div class="container">
+    <ol>
+{% for song in l %}
+<li>{{song}}</li>
+  {% endfor %}
+  </ol>
+
+ <div class="row">
+    <div class="col">
+      <div class = name_song> ATB_-_Atlantis.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/ATB_-_Atlantis.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div>
+   </div>
+
+
+    <div class="row">
+    <div class="col">
+      <div class = name_song> ATB - Repulse.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/ATB_-_ATB - Repulse.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div></div>
+
+
+
+    <div class="row">
+    <div class="col">
+      <div class = name_song> ATB_-_Marrakech.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/ATB_-_Marrakech.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div></div>
+
+
+
+      <div class="row">
+    <div class="col">
+      <div class = name_song> ATB_-_Voices.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/ATB_-_Voices.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div>
+</div>
+
+      <div class="row">
+    <div class="col">
+      <div class = name_song> Scooter_-_Extacy.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/Scooter_-_Extacy.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div>
+</div>
+
+ <div class="row">
+    <div class="col">
+      <div class = name_song> Scooter_-_Cosmos.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/Scooter_-_Cosmos.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col">
+      <div class = name_song> Scooter_-_Megamix.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/Scooter_-_Megamix.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col">
+      <div class = name_song> Scooter_-_Pulstar.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/Scooter_-_Pulstar.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div>
+</div>
+
+
+         <div class="row">
+    <div class="col">
+      <div class = name_song> Atb_-_Gravity.mp3 </div>
+    </div>
+       <div class="col">
+      <div class="div1">
+
+<audio src="{{ url_for('static', filename='music/Atb_-_Gravity.mp3') }}" controls="controls" preload="none"></audio>
+    </div>
+</div>
+</div>
+
+
+
+
+</div>
+<hr>
+{% endblock %}
